@@ -1,0 +1,1 @@
+Order Service added as the next microservice component for the Circuit Breaker project.
