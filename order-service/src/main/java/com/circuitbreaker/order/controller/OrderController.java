@@ -12,4 +12,9 @@ public class OrderController {
     public String getOrders() {
         return "Order Service is running";
     }
+
+    @GetMapping("/health")
+    public String healthCheck() {
+        return "Order Service is healthy";
+    }
 }
